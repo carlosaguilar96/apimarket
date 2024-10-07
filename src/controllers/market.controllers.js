@@ -33,7 +33,7 @@ export const getUsuario = async (req, res) => {
       }
       res.json({ productos: rows });
     }catch(error){
-        return res.status(500).json({ message: "Algo salio mal" });
+        return res.status(500).json({ message: "Algo salio mal"+error.getMessage() });
     }
   };
 
