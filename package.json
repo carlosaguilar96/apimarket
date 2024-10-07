@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "type": "module",
+  "scripts": { "start": "node server.js" },
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
